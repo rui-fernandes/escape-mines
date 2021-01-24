@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.Domain", "EscapeMines.Domain\EscapeMines.Domain.csproj", "{6E589F62-D131-4993-8AFC-08D0F303DCC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.Infrastructure", "EscapeMines.Infrastructure\EscapeMines.Infrastructure.csproj", "{0CA3876E-9794-497F-B486-286462C51517}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.Application", "EscapeMines.Application\EscapeMines.Application.csproj", "{18D20B70-5E3C-453D-B938-45C29B325E85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines", "EscapeMines\EscapeMines.csproj", "{24263149-05F9-4AC7-B99D-2C67FA6EE1B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BE40ECDC-A846-4AE2-878B-A972616BCFA9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4E42A54F-4590-4AD3-A57B-9E0840B99DE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.Application.Tests", "EscapeMines.Application.Tests\EscapeMines.Application.Tests.csproj", "{6B4BD0B1-681D-45AB-814F-2490204BCFC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.Domain.Tests", "EscapeMines.Domain.Tests\EscapeMines.Domain.Tests.csproj", "{EE01349D-6166-4778-943C-396EE66E9101}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.Infrastructure.Tests", "EscapeMines.Infrastructure.Tests\EscapeMines.Infrastructure.Tests.csproj", "{A4EE545B-A3C2-416A-B65C-1947E48C7B26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.IntegrationTests", "EscapeMines.IntegrationTests\EscapeMines.IntegrationTests.csproj", "{A9E6BABA-FD8A-4767-850B-DAC7B3211CA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E589F62-D131-4993-8AFC-08D0F303DCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E589F62-D131-4993-8AFC-08D0F303DCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E589F62-D131-4993-8AFC-08D0F303DCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E589F62-D131-4993-8AFC-08D0F303DCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA3876E-9794-497F-B486-286462C51517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA3876E-9794-497F-B486-286462C51517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA3876E-9794-497F-B486-286462C51517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA3876E-9794-497F-B486-286462C51517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D20B70-5E3C-453D-B938-45C29B325E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D20B70-5E3C-453D-B938-45C29B325E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D20B70-5E3C-453D-B938-45C29B325E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D20B70-5E3C-453D-B938-45C29B325E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24263149-05F9-4AC7-B99D-2C67FA6EE1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24263149-05F9-4AC7-B99D-2C67FA6EE1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24263149-05F9-4AC7-B99D-2C67FA6EE1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24263149-05F9-4AC7-B99D-2C67FA6EE1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4BD0B1-681D-45AB-814F-2490204BCFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4BD0B1-681D-45AB-814F-2490204BCFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4BD0B1-681D-45AB-814F-2490204BCFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4BD0B1-681D-45AB-814F-2490204BCFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE01349D-6166-4778-943C-396EE66E9101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE01349D-6166-4778-943C-396EE66E9101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE01349D-6166-4778-943C-396EE66E9101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE01349D-6166-4778-943C-396EE66E9101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4EE545B-A3C2-416A-B65C-1947E48C7B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EE545B-A3C2-416A-B65C-1947E48C7B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EE545B-A3C2-416A-B65C-1947E48C7B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EE545B-A3C2-416A-B65C-1947E48C7B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E6BABA-FD8A-4767-850B-DAC7B3211CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E6BABA-FD8A-4767-850B-DAC7B3211CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E6BABA-FD8A-4767-850B-DAC7B3211CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E6BABA-FD8A-4767-850B-DAC7B3211CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B4BD0B1-681D-45AB-814F-2490204BCFC4} = {4E42A54F-4590-4AD3-A57B-9E0840B99DE5}
+		{EE01349D-6166-4778-943C-396EE66E9101} = {4E42A54F-4590-4AD3-A57B-9E0840B99DE5}
+		{A4EE545B-A3C2-416A-B65C-1947E48C7B26} = {4E42A54F-4590-4AD3-A57B-9E0840B99DE5}
+		{A9E6BABA-FD8A-4767-850B-DAC7B3211CA1} = {4E42A54F-4590-4AD3-A57B-9E0840B99DE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02DDDB15-9649-4D28-93FF-074EEBC12EF6}
+	EndGlobalSection
+EndGlobal
